@@ -1,0 +1,28 @@
+{
+  "FolderOrderSettings":[
+    {"name":"1 Objects","order":1,"path":"folders/1 Objects.yy",},
+    {"name":"2 Sprites","order":2,"path":"folders/2 Sprites.yy",},
+    {"name":"3 Functions","order":3,"path":"folders/3 Functions.yy",},
+    {"name":"4 Sounds","order":4,"path":"folders/4 Sounds.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"oAI","order":2,"path":"objects/oAI/oAI.yy",},
+    {"name":"oAIControl","order":3,"path":"objects/oAIControl/oAIControl.yy",},
+    {"name":"oghostPostBuilding","order":5,"path":"objects/oghostPostBuilding/oghostPostBuilding.yy",},
+    {"name":"oHat","order":4,"path":"objects/oHat/oHat.yy",},
+    {"name":"oMusicControl","order":8,"path":"objects/oMusicControl/oMusicControl.yy",},
+    {"name":"oPsyche","order":1,"path":"objects/oPsyche/oPsyche.yy",},
+    {"name":"parSelectable","order":6,"path":"objects/parSelectable/parSelectable.yy",},
+    {"name":"parSolid","order":7,"path":"objects/parSolid/parSolid.yy",},
+    {"name":"sndFirstGhostWhistle","order":3,"path":"sounds/sndFirstGhostWhistle/sndFirstGhostWhistle.yy",},
+    {"name":"sndGlum2","order":1,"path":"sounds/sndGlum2/sndGlum2.yy",},
+    {"name":"sndGlum3","order":2,"path":"sounds/sndGlum3/sndGlum3.yy",},
+    {"name":"sAI","order":3,"path":"sprites/sAI/sAI.yy",},
+    {"name":"sBg","order":1,"path":"sprites/sBg/sBg.yy",},
+    {"name":"sGhostPostBuilding","order":6,"path":"sprites/sGhostPostBuilding/sGhostPostBuilding.yy",},
+    {"name":"sGhostyPostyIdle","order":4,"path":"sprites/sGhostyPostyIdle/sGhostyPostyIdle.yy",},
+    {"name":"sHat","order":5,"path":"sprites/sHat/sHat.yy",},
+    {"name":"sHatSelected","order":7,"path":"sprites/sHatSelected/sHatSelected.yy",},
+    {"name":"sPsyche","order":2,"path":"sprites/sPsyche/sPsyche.yy",},
+  ],
+}
