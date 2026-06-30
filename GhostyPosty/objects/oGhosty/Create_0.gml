@@ -8,8 +8,23 @@ soundChoice = 0;
 
 enum ghostyState{
 	idle,
-	changing
+	changing,
+	observed
 }
+
+inventory = noone;
+invCnt = array_length(inventory);
+
+outfits[0] = sGhostyIdle;
+outfits[1] = sGhostyPostyIdle;
+
+outfitsObserved[0] = sGhostyMask;
+outfitsObserved[1] = sGhostyPostyMask;
 
 state = ghostyState.idle;
 outfit = sGhostyIdle;
+checkTimer = 60;
+alarm[1] = checkTimer;
+
+wornHat = instance_create_layer(x,y,"Instances",oWornHat);
+wornHat.ghosty = self;

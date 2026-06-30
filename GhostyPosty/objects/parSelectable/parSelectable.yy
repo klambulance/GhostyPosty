@@ -10,8 +10,8 @@
   "name":"parSelectable",
   "overriddenProperties":[],
   "parent":{
-    "name":"1 Objects",
-    "path":"folders/1 Objects.yy",
+    "name":"Items",
+    "path":"folders/1 Objects/Items.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oghostPostBuilding",
+  "%Name":"oGhostPostBuilding",
   "eventList":[],
   "managed":true,
-  "name":"oghostPostBuilding",
+  "name":"oGhostPostBuilding",
   "overriddenProperties":[],
   "parent":{
     "name":"1 Objects",

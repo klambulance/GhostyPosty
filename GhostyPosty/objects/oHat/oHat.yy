@@ -8,12 +8,12 @@
   "name":"oHat",
   "overriddenProperties":[],
   "parent":{
-    "name":"1 Objects",
-    "path":"folders/1 Objects.yy",
+    "name":"Items",
+    "path":"folders/1 Objects/Items.yy",
   },
   "parentObjectId":{
-    "name":"parSelectable",
-    "path":"objects/parSelectable/parSelectable.yy",
+    "name":"parGrabbable",
+    "path":"objects/parGrabbable/parGrabbable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

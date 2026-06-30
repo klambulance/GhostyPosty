@@ -2,6 +2,6 @@
 // You can write your code in this editor
 
 state = ghostyState.changing;
-outfit = sGhostyPostyIdle;
+wornHat.sprite_index = sHat;
 
 instance_destroy(other);
