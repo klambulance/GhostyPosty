@@ -15,6 +15,12 @@ enum ghostyState{
 inventory = noone;
 invCnt = array_length(inventory);
 
+pebbleArr[0] = instance_create_layer(x-150,y,"Instances",oMovementPebble);
+pebbleArr[1] = instance_create_layer(x-150,y,"Instances",oMovementPebble);
+pebbleArr[2] = instance_create_layer(x-150,y,"Instances",oMovementPebble);
+pebbleLim = 3;
+
+
 outfits[0] = sGhostyIdle;
 outfits[1] = sGhostyPostyIdle;
 
