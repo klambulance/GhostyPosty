@@ -3,7 +3,6 @@
 
 if(target != noone){
 	targetCollision = point_distance(x,y,target.x,target.y);
-	show_debug_message(targetCollision);
 	if(targetCollision > 5){
 		speed = 2;
 		direction = point_direction(x,y,target.x,target.y);

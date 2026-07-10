@@ -1,11 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-if(x - startX > walkLim){
-	walkDir = -1;
-	image_xscale = 1;
-}else if(x - startX < -walkLim){
-	walkDir = 1;
-	image_xscale = -1;
+if(!global.paused){
+	if(x - startX > walkLim){
+		walkDir = -1;
+		image_xscale = 1;
+	}else if(x - startX < -walkLim){
+		walkDir = 1;
+		image_xscale = -1;
+	}
+	x = x + walkDir;
 }
-x = x + walkDir;

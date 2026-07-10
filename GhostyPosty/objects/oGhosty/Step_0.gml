@@ -7,6 +7,8 @@ case ghostyState.idle:
 	
 	fGhostyMove();
 	
+	
+	
 	if(distance_to_object(pebbleArr[0])>50){
 		var pebbleArrLim = array_length(pebbleArr);
 		for(var i=0; i<pebbleArrLim;i++;){

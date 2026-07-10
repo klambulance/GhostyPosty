@@ -14,6 +14,7 @@ enum ghostyState{
 
 inventory = noone;
 invCnt = array_length(inventory);
+invLimit = 4;
 
 pebbleArr[0] = instance_create_layer(x-150,y,"Instances",oMovementPebble);
 pebbleArr[1] = instance_create_layer(x-150,y,"Instances",oMovementPebble);
@@ -34,3 +35,6 @@ alarm[1] = checkTimer;
 
 wornHat = instance_create_layer(x,y,"Instances",oWornHat);
 wornHat.ghosty = self;
+
+nearNPC = noone;
+metPeopleArr = "";

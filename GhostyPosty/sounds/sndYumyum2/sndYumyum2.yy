@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"sndYumyum2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.2720182,
+  "exportDir":"",
+  "name":"sndYumyum2",
+  "parent":{
+    "name":"4 Sounds",
+    "path":"folders/4 Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndYumyum2.mp3",
+  "volume":1.0,
+}

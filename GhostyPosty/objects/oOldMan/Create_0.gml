@@ -9,5 +9,6 @@ image_alpha = 0.5;
 visitedToday = false;
 checkTimer = 30;
 alarm[0] = checkTimer;
+alarm[11] = meetTimer;	
 
 depth = -y;
