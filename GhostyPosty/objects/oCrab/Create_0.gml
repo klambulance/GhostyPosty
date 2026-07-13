@@ -14,5 +14,5 @@ floatData = 0;
 
 startX = x;
 walkDir = -1;
-walkLim = 150;
+walkLim = irandom_range(100,500);
 //alarm[0] = 10;

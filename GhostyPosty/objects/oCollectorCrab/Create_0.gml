@@ -11,8 +11,9 @@ floatMax = 5;
 floatAmount = 3;
 floatData = 0;
 
+targetCollision = 0;
+pauseTimer = 20;
+itemCarrying = noone;
 
-startX = x;
-walkDir = -1;
-walkLim = 150;
+
 //alarm[0] = 10;
