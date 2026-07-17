@@ -11,4 +11,6 @@ checkTimer = 30;
 alarm[0] = checkTimer;
 alarm[11] = meetTimer;	
 
+promptY = 140;
+
 depth = -y;

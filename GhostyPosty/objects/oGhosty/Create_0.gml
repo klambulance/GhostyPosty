@@ -38,3 +38,5 @@ wornHat.ghosty = self;
 
 nearNPC = noone;
 metPeopleArr = "";
+
+ghostToMouse = 40;
