@@ -28,6 +28,9 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"met","filters":[],"listItems":[],"multiselect":false,"name":"met","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"meetTimer","filters":[],"listItems":[],"multiselect":false,"name":"meetTimer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"ghostyNear","filters":[],"listItems":[],"multiselect":false,"name":"ghostyNear","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"prompt","filters":[],"listItems":[],"multiselect":false,"name":"prompt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v2","%Name":"promptY","filters":[],"listItems":[],"multiselect":false,"name":"promptY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

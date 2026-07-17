@@ -7,7 +7,7 @@ function fGhostyMove(){
 		}else{
 			var xDiff = x - mouse_x;
 			var yDiff = y - mouse_y;
-			if(xDiff > 10 or xDiff < -10){
+			if(xDiff > 50 or xDiff < -50){
 				if(x>mouse_x){
 					xInput = -1;
 					image_xscale = -1;
@@ -17,7 +17,7 @@ function fGhostyMove(){
 				}
 				move_and_collide(xInput*ghostySpeed, 0, parSolid);
 			}
-			if(yDiff > 10 or yDiff < -10){
+			if(yDiff > 50 or yDiff < -50){
 				if(y>mouse_y){
 					yInput = -1;
 				}else{

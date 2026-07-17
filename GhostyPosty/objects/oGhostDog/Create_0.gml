@@ -3,7 +3,6 @@
 
 
 
-depth = -y;	
 
 floatDir = 1;
 float = 1;

@@ -6,8 +6,8 @@
   "name":"oGhostPostBuilding",
   "overriddenProperties":[],
   "parent":{
-    "name":"1 Objects",
-    "path":"folders/1 Objects.yy",
+    "name":"Buildings",
+    "path":"folders/1 Objects/Buildings.yy",
   },
   "parentObjectId":{
     "name":"parSolid",

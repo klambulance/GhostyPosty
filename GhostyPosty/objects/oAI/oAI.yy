@@ -9,8 +9,8 @@
   "name":"oAI",
   "overriddenProperties":[],
   "parent":{
-    "name":"1 Objects",
-    "path":"folders/1 Objects.yy",
+    "name":"Archive",
+    "path":"folders/1 Objects/Archive.yy",
   },
   "parentObjectId":null,
   "persistent":false,

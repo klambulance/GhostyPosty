@@ -9,4 +9,5 @@ if(!global.paused){
 		image_xscale = -1;
 	}
 	x = x + walkDir;
+	depth = -y;	
 }

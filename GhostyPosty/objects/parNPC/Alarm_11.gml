@@ -9,3 +9,13 @@ if(!met){
 		alarm[11] = meetTimer;
 	}
 }
+
+if(ghostyNear and prompt == noone){
+	prompt = instance_create_layer(x,y-promptY,"GUI",oPrompt);
+	
+}
+
+if(!ghostyNear and prompt != noone){
+	instance_destroy(prompt);
+	prompt = noone;
+}
