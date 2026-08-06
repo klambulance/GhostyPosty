@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-audio_play_sound(sndKulluhFalling,1,1);
+camera_destroy(view_camera[1]);

@@ -44,5 +44,4 @@ case ghostyState.changing:
 }
 
 
-
 depth = -y;

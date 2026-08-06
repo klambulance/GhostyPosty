@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oGhostPostBuilding",
+  "%Name":"oFountain",
   "eventList":[],
   "managed":true,
-  "name":"oGhostPostBuilding",
+  "name":"oFountain",
   "overriddenProperties":[],
   "parent":{
     "name":"Buildings",
     "path":"folders/1 Objects/Buildings.yy",
   },
-  "parentObjectId":{
-    "name":"parSolid",
-    "path":"objects/parSolid/parSolid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPostOfficeTeardrop",
-    "path":"sprites/sPostOfficeTeardrop/sPostOfficeTeardrop.yy",
+    "name":"sFountain",
+    "path":"sprites/sFountain/sFountain.yy",
   },
   "spriteMaskId":null,
   "visible":true,

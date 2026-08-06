@@ -9,12 +9,12 @@ if(!met){
 	}
 }
 	if(collision_circle(x,y,200,oGhosty,0,1)){
-		ghostyNear = true;	show_debug_message(ghostyNear);
+		ghostyNear = true;
 	}else{
-		ghostyNear = false;	show_debug_message(ghostyNear);
+		ghostyNear = false;
 	}
 if(ghostyNear and prompt == noone){
-	prompt = instance_create_layer(x,y-promptY,"GUI",oPrompt);show_debug_message("hey");
+	prompt = instance_create_layer(x,y-promptY,"GUI",oPrompt);
 	
 }
 

@@ -2,11 +2,13 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function fGhostyMove(){
 	if(!global.paused){
-		if(point_distance(x,y,mouse_x,mouse_y) < 10){
+		var xDiff = x - mouse_x;
+		var yDiff = y - mouse_y;
+		fCameraMove(xDiff,yDiff);
+		if(point_distance(x,y,mouse_x,mouse_y) < ghostToMouse){
 			speed = 0;	
 		}else{
-			var xDiff = x - mouse_x;
-			var yDiff = y - mouse_y;
+			
 			if(xDiff > ghostToMouse or xDiff < -ghostToMouse){
 				if(x>mouse_x){
 					xInput = -1;
@@ -26,5 +28,6 @@ function fGhostyMove(){
 				move_and_collide(0, yInput * ghostySpeed, parSolid);
 			}
 		}
+		
 	}
 }

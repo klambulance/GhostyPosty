@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sndHallowNest",
+  "%Name":"sndKulluhFalling",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":115.009,
+  "duration":205.26317,
   "exportDir":"",
-  "name":"sndHallowNest",
+  "name":"sndKulluhFalling",
   "parent":{
     "name":"Ambience",
     "path":"folders/4 Sounds/Ambience.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sndHallowNest.mp3",
+  "soundFile":"sndKulluhFalling.mp3",
   "volume":1.0,
 }

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-ghostySpeed = 8;
+ghostySpeed = 3;
 
 soundChoice = 0;
 //alarm[0] = 5;
@@ -39,4 +39,5 @@ wornHat.ghosty = self;
 nearNPC = noone;
 metPeopleArr = "";
 
-ghostToMouse = 40;
+ghostToMouse = 50;
+zoomF = 1;

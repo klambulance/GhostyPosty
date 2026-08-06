@@ -11,9 +11,9 @@ alarm[0] = checkTimer;
 alarm[11] = meetTimer;	
 
 invIndex = 0;
-interestingItems[0] = oSanger;
+interestingItems[0] = oDollar;
 myItem = noone;
-sandwichJoy = 50;
+itemJoy = 50;
 eatingSounds = [sndYumyum1, sndYumyum2, sndYumyum3];
 eatSound = "";
 

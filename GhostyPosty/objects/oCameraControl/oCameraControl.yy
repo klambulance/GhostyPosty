@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"oGhostPostBuilding",
-  "eventList":[],
+  "%Name":"oCameraControl",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"oGhostPostBuilding",
+  "name":"oCameraControl",
   "overriddenProperties":[],
   "parent":{
-    "name":"Buildings",
-    "path":"folders/1 Objects/Buildings.yy",
+    "name":"1 Objects",
+    "path":"folders/1 Objects.yy",
   },
-  "parentObjectId":{
-    "name":"parSolid",
-    "path":"objects/parSolid/parSolid.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sPostOfficeTeardrop",
-    "path":"sprites/sPostOfficeTeardrop/sPostOfficeTeardrop.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
