@@ -17,6 +17,7 @@
     {"name":"3 Functions","order":3,"path":"folders/3 Functions.yy",},
     {"name":"4 Sounds","order":4,"path":"folders/4 Sounds.yy",},
     {"name":"Ambience","order":8,"path":"folders/4 Sounds/Ambience.yy",},
+    {"name":"5 Shaders","order":5,"path":"folders/5 Shaders.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"oAIControl","order":1,"path":"objects/oAIControl/oAIControl.yy",},
@@ -46,6 +47,7 @@
     {"name":"oSnevilleFront","order":2,"path":"objects/oSnevilleFront/oSnevilleFront.yy",},
     {"name":"oWornHat","order":11,"path":"objects/oWornHat/oWornHat.yy",},
     {"name":"parGrabbable","order":3,"path":"objects/parGrabbable/parGrabbable.yy",},
+    {"name":"parInteractor","order":14,"path":"objects/parInteractor/parInteractor.yy",},
     {"name":"parNPC","order":3,"path":"objects/parNPC/parNPC.yy",},
     {"name":"parSelectable","order":2,"path":"objects/parSelectable/parSelectable.yy",},
     {"name":"parSolid","order":3,"path":"objects/parSolid/parSolid.yy",},
@@ -54,6 +56,7 @@
     {"name":"fCheckArrayForValue","order":2,"path":"scripts/fCheckArrayForValue/fCheckArrayForValue.yy",},
     {"name":"fGhostyMove","order":1,"path":"scripts/fGhostyMove/fGhostyMove.yy",},
     {"name":"fRemoveValueFromArray","order":3,"path":"scripts/fRemoveValueFromArray/fRemoveValueFromArray.yy",},
+    {"name":"fVertexGhost","order":6,"path":"scripts/fVertexGhost/fVertexGhost.yy",},
     {"name":"sndFirstGhostWhistle","order":3,"path":"sounds/sndFirstGhostWhistle/sndFirstGhostWhistle.yy",},
     {"name":"sndGlum2","order":1,"path":"sounds/sndGlum2/sndGlum2.yy",},
     {"name":"sndGlum3","order":2,"path":"sounds/sndGlum3/sndGlum3.yy",},

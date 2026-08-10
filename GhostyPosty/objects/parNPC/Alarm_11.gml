@@ -8,19 +8,6 @@ if(!met){
 	}else{
 	}
 }
-	if(collision_circle(x,y,200,oGhosty,0,1)){
-		ghostyNear = true;
-	}else{
-		ghostyNear = false;
-	}
-if(ghostyNear and prompt == noone){
-	prompt = instance_create_layer(x,y-promptY,"GUI",oPrompt);
 	
-}
-
-if(!ghostyNear and prompt != noone){
-	instance_destroy(prompt);
-	prompt = noone;
-}
 
 alarm[11] = meetTimer;

@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"oOldMan",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"parInteractor",
+  "eventList":[],
   "managed":true,
-  "name":"oOldMan",
+  "name":"parInteractor",
   "overriddenProperties":[],
   "parent":{
     "name":"NPCs",
     "path":"folders/1 Objects/NPCs.yy",
   },
   "parentObjectId":{
-    "name":"parInteractor",
-    "path":"objects/parInteractor/parInteractor.yy",
+    "name":"parNPC",
+    "path":"objects/parNPC/parNPC.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sOldManIdle",
-    "path":"sprites/sOldManIdle/sOldManIdle.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

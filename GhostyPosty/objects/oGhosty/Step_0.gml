@@ -5,7 +5,7 @@ switch (state)
 {
 case ghostyState.idle:
 	
-	fGhostyMove();
+	fGhostyMove(ghostySpeed);
 	
 	
 	
@@ -41,7 +41,23 @@ case ghostyState.changing:
 	//sprite_index = outfit;
 	state = ghostyState.idle;
 	break;
+case ghostyState.interacting:
+	if(mouse_check_button_released(mb_left) and prompt != noone){
+		
+	}
+	
+	if(NPCNear != tempNPC and prompt != noone){
+		instance_destroy(prompt);
+		prompt = noone;
+		tempNPC = noone;
+		state = ghostyState.idle;
+	}
+	break;
 }
 
+
+if(prompt != noone){
+	prompt.image_alpha = image_alpha;
+}
 
 depth = -y;

@@ -9,7 +9,8 @@ soundChoice = 0;
 enum ghostyState{
 	idle,
 	changing,
-	observed
+	observed,
+	interacting
 }
 
 inventory = noone;
@@ -37,7 +38,30 @@ wornHat = instance_create_layer(x,y,"Instances",oWornHat);
 wornHat.ghosty = self;
 
 nearNPC = noone;
+tempNPC = noone;
+prompt = noone;
 metPeopleArr = "";
 
 ghostToMouse = 50;
 zoomF = 1;
+/*
+width = sprite_width;
+height = sprite_height;
+
+ghostSize = 48;
+ghostSep = 68;
+
+vertex_format_begin();
+vertex_format_add_position();
+vertex_format_add_colour();
+vertex_format_add_custom(vertex_type_float1, vertex_usage_texcoord);
+format = vertex_format_end();
+
+vbuff = vertex_create_buffer();
+
+vertex_begin(vbuff,format);
+	fVertexGhost(vbuff, x, y+height, ghostSize, height, 1);
+vertex_end(vbuff);
+
+u_time = shader_get_uniform(shdWobbler,"u_time");
+time = 0;*/

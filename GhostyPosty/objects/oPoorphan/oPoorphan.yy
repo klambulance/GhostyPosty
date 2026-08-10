@@ -13,8 +13,8 @@
     "path":"folders/1 Objects/NPCs.yy",
   },
   "parentObjectId":{
-    "name":"parNPC",
-    "path":"objects/parNPC/parNPC.yy",
+    "name":"parInteractor",
+    "path":"objects/parInteractor/parInteractor.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
